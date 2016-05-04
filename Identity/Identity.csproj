@@ -131,10 +131,12 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Auth\Index.cshtml" />
     <Content Include="Views\Auth\Login.cshtml" />
+    <Content Include="Views\Auth\Register.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppDbContext.cs" />
     <Compile Include="AppUser.cs" />
+    <Compile Include="AppUserClaimsIdentityFactory.cs" />
     <Compile Include="AppUserPrincipal.cs" />
     <Compile Include="AppViewPage.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
